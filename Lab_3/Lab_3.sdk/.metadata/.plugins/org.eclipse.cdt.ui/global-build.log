@@ -1,0 +1,766 @@
+23:50:35 **** Build of project Multiplier_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+23:50:48 **** Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Multiplier.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_bsp/ps7_cortexa9_0/lib -o "Multiplier.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier.elf  |tee "Multiplier.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19348	   1144	  22568	  43060	   a834	Multiplier.elf
+'Finished building: Multiplier.elf.size'
+' '
+23:51:15 **** Clean-only build of configuration Debug for project Multiplier ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  Multiplier.elf.size  Multiplier.elf
+' '
+
+****  of configuration Debug for project Multiplier ****
+
+Nothing to build for project Multiplier
+23:51:36 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+'Finished building: ../src/Multiplier.c'
+' '
+'Building target: Multiplier.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_bsp/ps7_cortexa9_0/lib -o "Multiplier.elf"  ./src/Multiplier.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../Multiplier_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\Bakuboys101\Desktop\Jr_Year_Spring\ECE_1195\Lab_3\Lab_3.sdk\Multiplier_bsp\ps7_cortexa9_0\libsrc\standalone_v6_8\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Multiplier.elf] Error 1
+23:57:14 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+../src/Multiplier.c: In function 'main':
+../src/Multiplier.c:17:28: error: 'SHAMT' undeclared (first use in this function)
+  A = 65535, B = 252645135, SHAMT = 0, ALUOp = 0;
+                            ^~~~~
+../src/Multiplier.c:17:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/Multiplier.c:17:39: error: 'ALUOp' undeclared (first use in this function)
+  A = 65535, B = 252645135, SHAMT = 0, ALUOp = 0;
+                                       ^~~~~
+../src/Multiplier.c:17:37: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  A = 65535, B = 252645135, SHAMT = 0, ALUOp = 0;
+                                     ^
+../src/Multiplier.c:20:46: error: 'Result' undeclared (first use in this function); did you mean 'reset'?
+  printf("%2zu AND %2zu = %3zu (%s)\n", A, B, Result, (Result == (A&B)) ? "COR" : "ERR");
+                                              ^~~~~~
+                                              reset
+../src/Multiplier.c:20:2: error: expected declaration or statement at end of input
+  printf("%2zu AND %2zu = %3zu (%s)\n", A, B, Result, (Result == (A&B)) ? "COR" : "ERR");
+  ^~~~~~
+../src/Multiplier.c:12:9: warning: variable 'done' set but not used [-Wunused-but-set-variable]
+  size_t done = 0;
+         ^~~~
+../src/Multiplier.c:11:12: warning: variable 'R' set but not used [-Wunused-but-set-variable]
+     size_t R = 0;
+            ^
+make: *** [src/subdir.mk:23: src/Multiplier.o] Error 1
+23:58:43 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+../src/Multiplier.c: In function 'main':
+../src/Multiplier.c:17:6: error: 'FFFFFFFF' undeclared (first use in this function)
+  A = FFFFFFFF, B = FFFFFFFF, reset = 0;
+      ^~~~~~~~
+../src/Multiplier.c:17:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/Multiplier.c:17:14: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  A = FFFFFFFF, B = FFFFFFFF, reset = 0;
+              ^
+../src/Multiplier.c:17:28: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  A = FFFFFFFF, B = FFFFFFFF, reset = 0;
+                            ^
+../src/Multiplier.c:20:2: error: expected declaration or statement at end of input
+  printf("%2zu AND %2zu = %3zu (%s)\n", A, B, R, (R == (A*B)) ? "COR" : "ERR");
+  ^~~~~~
+../src/Multiplier.c:12:9: warning: variable 'done' set but not used [-Wunused-but-set-variable]
+  size_t done = 0;
+         ^~~~
+make: *** [src/subdir.mk:23: src/Multiplier.o] Error 1
+23:59:21 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+../src/Multiplier.c: In function 'main':
+../src/Multiplier.c:17:6: error: 'FFFFFFFF' undeclared (first use in this function)
+  A = FFFFFFFF, B = FFFFFFFF, reset = 0;
+      ^~~~~~~~
+../src/Multiplier.c:17:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/Multiplier.c:17:14: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  A = FFFFFFFF, B = FFFFFFFF, reset = 0;
+              ^
+../src/Multiplier.c:17:28: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  A = FFFFFFFF, B = FFFFFFFF, reset = 0;
+                            ^
+../src/Multiplier.c:12:9: warning: variable 'done' set but not used [-Wunused-but-set-variable]
+  size_t done = 0;
+         ^~~~
+make: *** [src/subdir.mk:23: src/Multiplier.o] Error 1
+00:00:02 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+../src/Multiplier.c: In function 'main':
+../src/Multiplier.c:12:9: warning: variable 'done' set but not used [-Wunused-but-set-variable]
+  size_t done = 0;
+         ^~~~
+'Finished building: ../src/Multiplier.c'
+' '
+'Building target: Multiplier.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_bsp/ps7_cortexa9_0/lib -o "Multiplier.elf"  ./src/Multiplier.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier.elf  |tee "Multiplier.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	   2580	  23328	  96348	  1785c	Multiplier.elf
+'Finished building: Multiplier.elf.size'
+' '
+00:05:34 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+'Finished building: ../src/Multiplier.c'
+' '
+'Building target: Multiplier.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_bsp/ps7_cortexa9_0/lib -o "Multiplier.elf"  ./src/Multiplier.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier.elf  |tee "Multiplier.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	   2580	  23328	  96348	  1785c	Multiplier.elf
+'Finished building: Multiplier.elf.size'
+' '
+00:07:40 **** Incremental Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+00:08:39 **** Incremental Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+00:09:28 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+'Finished building: ../src/Multiplier.c'
+' '
+'Building target: Multiplier.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_bsp/ps7_cortexa9_0/lib -o "Multiplier.elf"  ./src/Multiplier.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier.elf  |tee "Multiplier.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70440	   2580	  23328	  96348	  1785c	Multiplier.elf
+'Finished building: Multiplier.elf.size'
+' '
+00:16:20 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+../src/Multiplier.c: In function 'main':
+../src/Multiplier.c:13:2: error: unknown type name 'boolean'
+  boolean out = 0;
+  ^~~~~~~
+make: *** [src/subdir.mk:23: src/Multiplier.o] Error 1
+00:16:27 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+'Finished building: ../src/Multiplier.c'
+' '
+'Building target: Multiplier.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_bsp/ps7_cortexa9_0/lib -o "Multiplier.elf"  ./src/Multiplier.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier.elf  |tee "Multiplier.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70504	   2580	  23328	  96412	  1789c	Multiplier.elf
+'Finished building: Multiplier.elf.size'
+' '
+00:16:41 **** Incremental Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+00:17:16 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+'Finished building: ../src/Multiplier.c'
+' '
+'Building target: Multiplier.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_bsp/ps7_cortexa9_0/lib -o "Multiplier.elf"  ./src/Multiplier.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier.elf  |tee "Multiplier.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70692	   2580	  23328	  96600	  17958	Multiplier.elf
+'Finished building: Multiplier.elf.size'
+' '
+00:17:30 **** Incremental Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+00:22:07 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+../src/Multiplier.c: In function 'main':
+../src/Multiplier.c:10:12: warning: variable 'reset' set but not used [-Wunused-but-set-variable]
+     size_t reset = 0;
+            ^~~~~
+'Finished building: ../src/Multiplier.c'
+' '
+'Building target: Multiplier.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_bsp/ps7_cortexa9_0/lib -o "Multiplier.elf"  ./src/Multiplier.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier.elf  |tee "Multiplier.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70692	   2580	  23328	  96600	  17958	Multiplier.elf
+'Finished building: Multiplier.elf.size'
+' '
+00:25:11 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+../src/Multiplier.c: In function 'main':
+../src/Multiplier.c:21:20: error: 'bout' undeclared (first use in this function); did you mean 'out'?
+  Aout = regmap[0], bout = regmap[1], done = regmap[2];
+                    ^~~~
+                    out
+../src/Multiplier.c:21:20: note: each undeclared identifier is reported only once for each function it appears in
+../src/Multiplier.c:21:36: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  Aout = regmap[0], bout = regmap[1], done = regmap[2];
+                                    ^
+../src/Multiplier.c:27:40: error: 'A' undeclared (first use in this function)
+    printf("%2zu * %2zu = %3zu (%s)\n", A, B, R, (R == (A*B)) ? "COR" : "ERR");
+                                        ^
+../src/Multiplier.c:27:43: error: 'B' undeclared (first use in this function)
+    printf("%2zu * %2zu = %3zu (%s)\n", A, B, R, (R == (A*B)) ? "COR" : "ERR");
+                                           ^
+../src/Multiplier.c:27:46: error: 'R' undeclared (first use in this function)
+    printf("%2zu * %2zu = %3zu (%s)\n", A, B, R, (R == (A*B)) ? "COR" : "ERR");
+                                              ^
+../src/Multiplier.c:12:12: warning: unused variable 'Bout' [-Wunused-variable]
+     size_t Bout = 0;
+            ^~~~
+../src/Multiplier.c:11:9: warning: variable 'Aout' set but not used [-Wunused-but-set-variable]
+  size_t Aout = 0;
+         ^~~~
+make: *** [src/subdir.mk:23: src/Multiplier.o] Error 1
+00:25:23 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+../src/Multiplier.c: In function 'main':
+../src/Multiplier.c:27:40: error: 'A' undeclared (first use in this function)
+    printf("%2zu * %2zu = %3zu (%s)\n", A, B, R, (R == (A*B)) ? "COR" : "ERR");
+                                        ^
+../src/Multiplier.c:27:40: note: each undeclared identifier is reported only once for each function it appears in
+../src/Multiplier.c:27:43: error: 'B' undeclared (first use in this function)
+    printf("%2zu * %2zu = %3zu (%s)\n", A, B, R, (R == (A*B)) ? "COR" : "ERR");
+                                           ^
+../src/Multiplier.c:27:46: error: 'R' undeclared (first use in this function)
+    printf("%2zu * %2zu = %3zu (%s)\n", A, B, R, (R == (A*B)) ? "COR" : "ERR");
+                                              ^
+../src/Multiplier.c:12:12: warning: variable 'Bout' set but not used [-Wunused-but-set-variable]
+     size_t Bout = 0;
+            ^~~~
+../src/Multiplier.c:11:9: warning: variable 'Aout' set but not used [-Wunused-but-set-variable]
+  size_t Aout = 0;
+         ^~~~
+make: *** [src/subdir.mk:23: src/Multiplier.o] Error 1
+00:27:36 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+../src/Multiplier.c: In function 'main':
+../src/Multiplier.c:28:11: warning: left shift count >= width of type [-Wshift-count-overflow]
+    R=(Aout<<32)|(Bout)
+           ^~
+../src/Multiplier.c:29:4: error: expected ';' before 'printf'
+    printf("%2zu * %2zu = %3zu (%s)\n", Ain, Bin, R, (R == (A*B)) ? "COR" : "ERR");
+    ^~~~~~
+../src/Multiplier.c:14:9: warning: variable 'R' set but not used [-Wunused-but-set-variable]
+  size_t R = 0;
+         ^
+make: *** [src/subdir.mk:23: src/Multiplier.o] Error 1
+00:27:40 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+../src/Multiplier.c: In function 'main':
+../src/Multiplier.c:28:11: warning: left shift count >= width of type [-Wshift-count-overflow]
+    R=(Aout<<32)|(Bout);
+           ^~
+../src/Multiplier.c:29:60: error: 'A' undeclared (first use in this function)
+    printf("%2zu * %2zu = %3zu (%s)\n", Ain, Bin, R, (R == (A*B)) ? "COR" : "ERR");
+                                                            ^
+../src/Multiplier.c:29:60: note: each undeclared identifier is reported only once for each function it appears in
+../src/Multiplier.c:29:62: error: 'B' undeclared (first use in this function)
+    printf("%2zu * %2zu = %3zu (%s)\n", Ain, Bin, R, (R == (A*B)) ? "COR" : "ERR");
+                                                              ^
+make: *** [src/subdir.mk:23: src/Multiplier.o] Error 1
+00:27:51 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+../src/Multiplier.c: In function 'main':
+../src/Multiplier.c:28:11: warning: left shift count >= width of type [-Wshift-count-overflow]
+    R=(Aout<<32)|(Bout);
+           ^~
+'Finished building: ../src/Multiplier.c'
+' '
+'Building target: Multiplier.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_bsp/ps7_cortexa9_0/lib -o "Multiplier.elf"  ./src/Multiplier.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier.elf  |tee "Multiplier.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70756	   2580	  23328	  96664	  17998	Multiplier.elf
+'Finished building: Multiplier.elf.size'
+' '
+00:28:09 **** Incremental Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+00:29:36 **** Incremental Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+00:32:42 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+../src/Multiplier.c: In function 'main':
+../src/Multiplier.c:30:11: warning: left shift count >= width of type [-Wshift-count-overflow]
+    R=(Aout<<32)|(Bout);
+           ^~
+'Finished building: ../src/Multiplier.c'
+' '
+'Building target: Multiplier.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_bsp/ps7_cortexa9_0/lib -o "Multiplier.elf"  ./src/Multiplier.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier.elf  |tee "Multiplier.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70756	   2580	  23328	  96664	  17998	Multiplier.elf
+'Finished building: Multiplier.elf.size'
+' '
+00:32:58 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+../src/Multiplier.c: In function 'main':
+../src/Multiplier.c:28:11: warning: left shift count >= width of type [-Wshift-count-overflow]
+    R=(Aout<<32)|(Bout);
+           ^~
+'Finished building: ../src/Multiplier.c'
+' '
+'Building target: Multiplier.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_bsp/ps7_cortexa9_0/lib -o "Multiplier.elf"  ./src/Multiplier.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier.elf  |tee "Multiplier.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70756	   2580	  23328	  96664	  17998	Multiplier.elf
+'Finished building: Multiplier.elf.size'
+' '
+00:36:03 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+../src/Multiplier.c: In function 'main':
+../src/Multiplier.c:32:11: warning: left shift count >= width of type [-Wshift-count-overflow]
+    R=(Aout<<32)|(Bout);
+           ^~
+'Finished building: ../src/Multiplier.c'
+' '
+'Building target: Multiplier.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_bsp/ps7_cortexa9_0/lib -o "Multiplier.elf"  ./src/Multiplier.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier.elf  |tee "Multiplier.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70820	   2580	  23328	  96728	  179d8	Multiplier.elf
+'Finished building: Multiplier.elf.size'
+' '
+00:37:13 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+../src/Multiplier.c: In function 'main':
+../src/Multiplier.c:32:11: warning: left shift count >= width of type [-Wshift-count-overflow]
+    R=(Aout<<32)|(Bout);
+           ^~
+../src/Multiplier.c:33:15: warning: format '%zu' expects argument of type 'size_t', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("%2zu * %2zu = %3zu (%s)\n", Ain, Bin, R, (R == (uint64_t) Ain * (uint64_t) Bin) ? "COR" : "ERR");
+            ~~~^
+            %2lu
+../src/Multiplier.c:33:22: warning: format '%zu' expects argument of type 'size_t', but argument 3 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("%2zu * %2zu = %3zu (%s)\n", Ain, Bin, R, (R == (uint64_t) Ain * (uint64_t) Bin) ? "COR" : "ERR");
+                   ~~~^
+                   %2lu
+../src/Multiplier.c:33:29: warning: format '%zu' expects argument of type 'size_t', but argument 4 has type 'uint64_t {aka long long unsigned int}' [-Wformat=]
+    printf("%2zu * %2zu = %3zu (%s)\n", Ain, Bin, R, (R == (uint64_t) Ain * (uint64_t) Bin) ? "COR" : "ERR");
+                          ~~~^
+                          %3llu
+'Finished building: ../src/Multiplier.c'
+' '
+'Building target: Multiplier.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_bsp/ps7_cortexa9_0/lib -o "Multiplier.elf"  ./src/Multiplier.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier.elf  |tee "Multiplier.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70884	   2580	  23328	  96792	  17a18	Multiplier.elf
+'Finished building: Multiplier.elf.size'
+' '
+00:39:02 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+../src/Multiplier.c: In function 'main':
+../src/Multiplier.c:32:51: error: expected ';' before ')' token
+    R=(((uint64_t) Aout) << 32) + ((uint64_t) Bout));
+                                                   ^
+../src/Multiplier.c:32:51: error: expected statement before ')' token
+../src/Multiplier.c:33:15: warning: format '%zu' expects argument of type 'size_t', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("%2zu * %2zu = %3zu (%s)\n", Ain, Bin, R, (R == (uint64_t) Ain * (uint64_t) Bin) ? "COR" : "ERR");
+            ~~~^
+            %2lu
+../src/Multiplier.c:33:22: warning: format '%zu' expects argument of type 'size_t', but argument 3 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("%2zu * %2zu = %3zu (%s)\n", Ain, Bin, R, (R == (uint64_t) Ain * (uint64_t) Bin) ? "COR" : "ERR");
+                   ~~~^
+                   %2lu
+../src/Multiplier.c:33:29: warning: format '%zu' expects argument of type 'size_t', but argument 4 has type 'uint64_t {aka long long unsigned int}' [-Wformat=]
+    printf("%2zu * %2zu = %3zu (%s)\n", Ain, Bin, R, (R == (uint64_t) Ain * (uint64_t) Bin) ? "COR" : "ERR");
+                          ~~~^
+                          %3llu
+make: *** [src/subdir.mk:23: src/Multiplier.o] Error 1
+00:39:10 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+../src/Multiplier.c: In function 'main':
+../src/Multiplier.c:33:15: warning: format '%zu' expects argument of type 'size_t', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("%2zu * %2zu = %3zu (%s)\n", Ain, Bin, R, (R == (uint64_t) Ain * (uint64_t) Bin) ? "COR" : "ERR");
+            ~~~^
+            %2lu
+../src/Multiplier.c:33:22: warning: format '%zu' expects argument of type 'size_t', but argument 3 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("%2zu * %2zu = %3zu (%s)\n", Ain, Bin, R, (R == (uint64_t) Ain * (uint64_t) Bin) ? "COR" : "ERR");
+                   ~~~^
+                   %2lu
+../src/Multiplier.c:33:29: warning: format '%zu' expects argument of type 'size_t', but argument 4 has type 'uint64_t {aka long long unsigned int}' [-Wformat=]
+    printf("%2zu * %2zu = %3zu (%s)\n", Ain, Bin, R, (R == (uint64_t) Ain * (uint64_t) Bin) ? "COR" : "ERR");
+                          ~~~^
+                          %3llu
+'Finished building: ../src/Multiplier.c'
+' '
+'Building target: Multiplier.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_bsp/ps7_cortexa9_0/lib -o "Multiplier.elf"  ./src/Multiplier.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier.elf  |tee "Multiplier.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70884	   2580	  23328	  96792	  17a18	Multiplier.elf
+'Finished building: Multiplier.elf.size'
+' '
+00:40:05 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+../src/Multiplier.c: In function 'main':
+../src/Multiplier.c:28:13: warning: format '%zu' expects argument of type 'size_t', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+  printf("%2zu * %2zu = %3zu (%s)\n", Ain, Bin, R, (R == (uint64_t) Ain * (uint64_t) Bin) ? "COR" : "ERR");
+          ~~~^
+          %2lu
+../src/Multiplier.c:28:20: warning: format '%zu' expects argument of type 'size_t', but argument 3 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+  printf("%2zu * %2zu = %3zu (%s)\n", Ain, Bin, R, (R == (uint64_t) Ain * (uint64_t) Bin) ? "COR" : "ERR");
+                 ~~~^
+                 %2lu
+../src/Multiplier.c:28:27: warning: format '%zu' expects argument of type 'size_t', but argument 4 has type 'uint64_t {aka long long unsigned int}' [-Wformat=]
+  printf("%2zu * %2zu = %3zu (%s)\n", Ain, Bin, R, (R == (uint64_t) Ain * (uint64_t) Bin) ? "COR" : "ERR");
+                        ~~~^
+                        %3llu
+'Finished building: ../src/Multiplier.c'
+' '
+'Building target: Multiplier.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_bsp/ps7_cortexa9_0/lib -o "Multiplier.elf"  ./src/Multiplier.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier.elf  |tee "Multiplier.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  70632	   2580	  23328	  96540	  1791c	Multiplier.elf
+'Finished building: Multiplier.elf.size'
+' '
+00:40:11 **** Incremental Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+00:41:21 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+'Finished building: ../src/Multiplier.c'
+' '
+'Building target: Multiplier.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_bsp/ps7_cortexa9_0/lib -o "Multiplier.elf"  ./src/Multiplier.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../Multiplier_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\Bakuboys101\Desktop\Jr_Year_Spring\ECE_1195\Lab_3\Lab_3.sdk\Multiplier_bsp\ps7_cortexa9_0\libsrc\standalone_v6_8\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: Multiplier.elf] Error 1
+00:41:26 **** Auto Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Multiplier.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Multiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Multiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Multiplier.d" -MT"src/Multiplier.o" -o "src/Multiplier.o" "../src/Multiplier.c"
+'Finished building: ../src/Multiplier.c'
+' '
+'Building target: Multiplier.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Multiplier_bsp/ps7_cortexa9_0/lib -o "Multiplier.elf"  ./src/Multiplier.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Multiplier.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Multiplier.elf  |tee "Multiplier.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72244	   2580	  23328	  98152	  17f68	Multiplier.elf
+'Finished building: Multiplier.elf.size'
+' '
+00:41:40 **** Incremental Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+00:50:49 **** Incremental Build of configuration Debug for project Multiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.

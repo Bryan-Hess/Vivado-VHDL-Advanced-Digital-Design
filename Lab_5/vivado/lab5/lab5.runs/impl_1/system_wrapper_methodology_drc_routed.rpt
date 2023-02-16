@@ -1,0 +1,370 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Apr 16 23:26:07 2022
+| Host         : DESKTOP-3FOR1BS running 64-bit major release  (build 9200)
+| Command      : report_methodology -file system_wrapper_methodology_drc_routed.rpt -pb system_wrapper_methodology_drc_routed.pb -rpx system_wrapper_methodology_drc_routed.rpx
+| Design       : system_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 67
++-----------+----------+-----------------------+------------+
+| Rule      | Severity | Description           | Violations |
++-----------+----------+-----------------------+------------+
+| TIMING-16 | Warning  | Large setup violation | 67         |
++-----------+----------+-----------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -1.009 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_24_reg_16095_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -1.020 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_289_reg_18760_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -1.024 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_233_reg_18200_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -1.028 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_30_reg_16155_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -1.034 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_127_reg_17130_reg[0]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -1.036 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_409_reg_19950_reg[5]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -1.038 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_285_reg_18720_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -1.042 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_321_reg_19070_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -1.047 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_309_reg_18950_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -1.048 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_225_reg_18120_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -1.050 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_277_reg_18630_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -1.057 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_86_reg_16725_reg[0]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -1.058 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_307_reg_18940_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -1.061 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_287_reg_18740_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -1.063 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_297_reg_18840_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -1.071 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_293_reg_18800_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#17 Warning
+Large setup violation  
+There is a large setup violation of -1.080 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_309_reg_18960_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#18 Warning
+Large setup violation  
+There is a large setup violation of -1.086 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_275_reg_18610_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#19 Warning
+Large setup violation  
+There is a large setup violation of -1.089 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_82_reg_16675_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#20 Warning
+Large setup violation  
+There is a large setup violation of -1.092 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_321_reg_19080_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#21 Warning
+Large setup violation  
+There is a large setup violation of -1.100 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_129_reg_17150_reg[0]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#22 Warning
+Large setup violation  
+There is a large setup violation of -1.104 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_301_reg_18880_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#23 Warning
+Large setup violation  
+There is a large setup violation of -1.107 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_271_reg_18570_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#24 Warning
+Large setup violation  
+There is a large setup violation of -1.139 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_111_reg_16970_reg[0]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#25 Warning
+Large setup violation  
+There is a large setup violation of -1.154 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_32_reg_16175_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#26 Warning
+Large setup violation  
+There is a large setup violation of -1.154 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_299_reg_18860_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#27 Warning
+Large setup violation  
+There is a large setup violation of -1.156 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_283_reg_18700_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#28 Warning
+Large setup violation  
+There is a large setup violation of -1.159 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_20_reg_16055_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#29 Warning
+Large setup violation  
+There is a large setup violation of -1.159 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_273_reg_18600_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#30 Warning
+Large setup violation  
+There is a large setup violation of -1.168 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_104_reg_16895_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#31 Warning
+Large setup violation  
+There is a large setup violation of -1.173 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_18_reg_16035_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#32 Warning
+Large setup violation  
+There is a large setup violation of -1.179 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_92_reg_16775_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#33 Warning
+Large setup violation  
+There is a large setup violation of -1.180 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_277_reg_18640_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#34 Warning
+Large setup violation  
+There is a large setup violation of -1.189 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_279_reg_18660_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#35 Warning
+Large setup violation  
+There is a large setup violation of -1.194 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_405_reg_19910_reg[5]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#36 Warning
+Large setup violation  
+There is a large setup violation of -1.199 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_317_reg_19040_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#37 Warning
+Large setup violation  
+There is a large setup violation of -1.203 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_108_reg_16935_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#38 Warning
+Large setup violation  
+There is a large setup violation of -1.207 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_315_reg_19020_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#39 Warning
+Large setup violation  
+There is a large setup violation of -1.245 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_68_reg_16545_reg[0]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#40 Warning
+Large setup violation  
+There is a large setup violation of -1.251 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_271_reg_18580_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#41 Warning
+Large setup violation  
+There is a large setup violation of -1.252 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_96_reg_16815_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#42 Warning
+Large setup violation  
+There is a large setup violation of -1.261 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_411_reg_19970_reg[5]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#43 Warning
+Large setup violation  
+There is a large setup violation of -1.264 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_269_reg_18560_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#44 Warning
+Large setup violation  
+There is a large setup violation of -1.280 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_106_reg_16915_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#45 Warning
+Large setup violation  
+There is a large setup violation of -1.280 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_291_reg_18780_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#46 Warning
+Large setup violation  
+There is a large setup violation of -1.293 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_315_reg_19010_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#47 Warning
+Large setup violation  
+There is a large setup violation of -1.307 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_30_reg_16155_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#48 Warning
+Large setup violation  
+There is a large setup violation of -1.314 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_102_reg_16875_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#49 Warning
+Large setup violation  
+There is a large setup violation of -1.314 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_295_reg_18820_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#50 Warning
+Large setup violation  
+There is a large setup violation of -1.321 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_14_reg_15995_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#51 Warning
+Large setup violation  
+There is a large setup violation of -1.323 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_215_reg_18020_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#52 Warning
+Large setup violation  
+There is a large setup violation of -1.342 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_16_reg_16015_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#53 Warning
+Large setup violation  
+There is a large setup violation of -1.348 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_146_reg_17315_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#54 Warning
+Large setup violation  
+There is a large setup violation of -1.361 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_395_reg_19810_reg[5]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#55 Warning
+Large setup violation  
+There is a large setup violation of -1.378 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_275_reg_18620_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#56 Warning
+Large setup violation  
+There is a large setup violation of -1.446 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_98_reg_16835_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#57 Warning
+Large setup violation  
+There is a large setup violation of -1.483 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKBWRCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_12_reg_15975_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#58 Warning
+Large setup violation  
+There is a large setup violation of -1.485 ns between system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_load_281_reg_18680_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#59 Warning
+Large setup violation  
+There is a large setup violation of -1.537 ns between system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/CLKARDCLK (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_load_397_reg_19830_reg[5]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#60 Warning
+Large setup violation  
+There is a large setup violation of -1.795 ns between system_i/hw_conv_0/U0/ap_CS_fsm_reg[24]/C (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/ADDRARDADDR[8] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#61 Warning
+Large setup violation  
+There is a large setup violation of -1.795 ns between system_i/hw_conv_0/U0/ap_CS_fsm_reg[24]/C (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/ADDRARDADDR[8] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#62 Warning
+Large setup violation  
+There is a large setup violation of -2.021 ns between system_i/hw_conv_0/U0/ap_CS_fsm_reg[13]/C (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/ADDRARDADDR[6] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#63 Warning
+Large setup violation  
+There is a large setup violation of -2.021 ns between system_i/hw_conv_0/U0/ap_CS_fsm_reg[13]/C (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/ADDRARDADDR[6] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#64 Warning
+Large setup violation  
+There is a large setup violation of -2.121 ns between system_i/hw_conv_0/U0/ap_CS_fsm_reg[31]/C (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/ADDRARDADDR[5] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#65 Warning
+Large setup violation  
+There is a large setup violation of -2.121 ns between system_i/hw_conv_0/U0/ap_CS_fsm_reg[31]/C (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/ADDRARDADDR[5] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#66 Warning
+Large setup violation  
+There is a large setup violation of -2.304 ns between system_i/hw_conv_0/U0/ap_CS_fsm_reg[15]/C (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_0_U/hw_conv_lbuf_0_ram_U/ram_reg/ADDRARDADDR[7] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#67 Warning
+Large setup violation  
+There is a large setup violation of -2.304 ns between system_i/hw_conv_0/U0/ap_CS_fsm_reg[15]/C (clocked by clk_fpga_0) and system_i/hw_conv_0/U0/lbuf_1_U/hw_conv_lbuf_0_ram_U/ram_reg/ADDRARDADDR[7] (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+

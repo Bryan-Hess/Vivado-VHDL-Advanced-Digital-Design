@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Mar 28 13:55:44 2022
+# Process ID: 10780
+# Current directory: C:/Users/Amr/OneDrive - University of Pittsburgh/Spring 2022/Teaching/ECE 1195/Labs/Lab 5 - 2D Image Convolution/lab5_template/vivado/lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21156 C:\Users\Amr\OneDrive - University of Pittsburgh\Spring 2022\Teaching\ECE 1195\Labs\Lab 5 - 2D Image Convolution\lab5_template\vivado\lab5\lab5.xpr
+# Log file: C:/Users/Amr/OneDrive - University of Pittsburgh/Spring 2022/Teaching/ECE 1195/Labs/Lab 5 - 2D Image Convolution/lab5_template/vivado/lab5/vivado.log
+# Journal file: C:/Users/Amr/OneDrive - University of Pittsburgh/Spring 2022/Teaching/ECE 1195/Labs/Lab 5 - 2D Image Convolution/lab5_template/vivado/lab5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Amr/OneDrive - University of Pittsburgh/Spring 2022/Teaching/ECE 1195/Labs/Lab 5 - 2D Image Convolution/lab5_template/vivado/lab5/lab5.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Amr/OneDrive - University of Pittsburgh/Spring 2022/Teaching/ECE 1195/Labs/Lab 5 - 2D Image Convolution/lab5_template/vivado/lab5'
+INFO: [Project 1-313] Project file moved from '/cryptdata/work/RCW/lab5/lab5' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Amr/OneDrive - University of Pittsburgh/Spring 2022/Teaching/ECE 1195/Labs/Lab 5 - 2D Image Convolution/lab5_template/vivado/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 673.352 ; gain = 97.051
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/Amr/OneDrive - University of Pittsburgh/Spring 2022/Teaching/ECE 1195/Labs/Lab 5 - 2D Image Convolution/lab5_template/vivado/lab5/lab5.srcs/sources_1/bd/system/system.bd}
+Adding cell -- xilinx.com:ip:axis_data_fifo:2.0 - AXIS_DATA_FIFO
+Adding cell -- xilinx.com:ip:axi_dma:7.1 - AXI_DMA
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - IRQ_CONCAT
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - PL2PS_AXI
+Adding cell -- xilinx.com:ip:axi_interconnect:2.1 - PS2PL_AXI
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - PS7
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - PSR
+Successfully read diagram <system> from BD file <C:/Users/Amr/OneDrive - University of Pittsburgh/Spring 2022/Teaching/ECE 1195/Labs/Lab 5 - 2D Image Convolution/lab5_template/vivado/lab5/lab5.srcs/sources_1/bd/system/system.bd>
+open_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 838.336 ; gain = 123.883
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 28 22:57:19 2022...

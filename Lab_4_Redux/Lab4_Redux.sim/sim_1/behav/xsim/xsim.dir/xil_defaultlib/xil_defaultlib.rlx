@@ -1,0 +1,19 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Alu.vhd,1648965850,vhdl,,,,alu,,,,,,,,
+C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/AluCtrl.vhd,1648965140,vhdl,,,,alucontrol,,,,,,,,
+C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/CPU.vhd,1649039164,vhdl,,,,cpu,,,,,,,,
+C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/CPU_memory.vhd,1649032670,vhdl,,,,cpu_memory,,,,,,,,
+C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/ControlUnit.vhd,1649030170,vhdl,,,,controlunit,,,,,,,,
+C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/InstructionRegister.vhd,1648931558,vhdl,,,,instructionregister,,,,,,,,
+C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/LeadingOnesCounter.vhd,1648952466,vhdl,,,,leadingonescounter,,,,,,,,
+C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/LeftShifter.vhd,1648935848,vhdl,,,,leftshifter,,,,,,,,
+C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Multiplexier.vhd,1648935218,vhdl,,,,mux,,,,,,,,
+C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Multiplier.vhd,1648972374,vhdl,,,,multiplier,,,,,,,,
+C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Register.vhd,1648930420,vhdl,,,,reg,,,,,,,,
+C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/RegisterFile.vhd,1648929950,vhdl,,,,regfile,,,,,,,,
+C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Resizer.vhd,1648953290,vhdl,,,,resizer,,,,,,,,
+C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/SignExtender.vhd,1648937644,vhdl,,,,signextender,,,,,,,,
+C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/cpu_tb.vhd,1649034080,vhdl,,,,cpu_tb,,,,,,,,

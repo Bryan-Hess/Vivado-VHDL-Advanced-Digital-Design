@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main(void)
+{
+	// base address of axi_regmap as set in the Vivado address editor
+	uint32_t *regmap= (uint32_t *) 0x70000000;
+
+	uint32_t Ain = 0;
+	uint32_t Bin = 0;
+    size_t reset = 0;
+    uint32_t Aout = 0;
+    uint32_t Bout = 0;
+	size_t done = 0;
+	uint64_t R = 0;
+	int out = 0;
+
+	////////////////////////////////////////Test 1//////////////////////////////////////////////
+
+	//Bitwise AND
+	Ain = 4294967295, Bin = 4294967295, reset = 0;
+	regmap[0] = Ain, regmap[1] = Bin, regmap[2] = reset;
+	Aout = regmap[0], Bout = regmap[1], done = regmap[2];
+
+	regmap[2] = 1;
+	regmap[2] = 0;
+
+	while(out==0){
+		if(done==0){
+			out=0;
+			printf("Loop\n");
+		}else if(done==1){
+			R=(Aout<<32)|(Bout);
+			printf("%2zu * %2zu = %3zu (%s)\n", Ain, Bin, R, (R == (uint64_t) Ain * (uint64_t) Bin) ? "COR" : "ERR");
+			out=1;
+		}
+	}
+
+
+	return 0;
+}

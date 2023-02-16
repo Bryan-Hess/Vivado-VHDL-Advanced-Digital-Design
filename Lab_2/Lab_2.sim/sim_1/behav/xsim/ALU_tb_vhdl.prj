@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Lab_2.srcs/sources_1/new/ALU.vhd" \
+"../../../../Lab_2.srcs/sources_1/imports/src/Arith_Unit.vhd" \
+"../../../../Lab_2.srcs/sources_1/new/ComparatorUnit.vhd" \
+"../../../../Lab_2.srcs/sources_1/new/LogicalUnit.vhd" \
+"../../../../Lab_2.srcs/sources_1/new/ShifterUnit.vhd" \
+"../../../../Lab_2.srcs/sim_1/new/ALU_tb.vhd" \
+
+# Do not sort compile order
+nosort

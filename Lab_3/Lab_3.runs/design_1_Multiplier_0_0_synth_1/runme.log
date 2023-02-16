@@ -1,0 +1,447 @@
+
+*** Running vivado
+    with args -log design_1_Multiplier_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_Multiplier_0_0.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source design_1_Multiplier_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+Command: synth_design -top design_1_Multiplier_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6416 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 372.402 ; gain = 104.824
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_Multiplier_0_0' [c:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/bd/design_1/ip/design_1_Multiplier_0_0/synth/design_1_Multiplier_0_0.vhd:67]
+	Parameter n bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'Multiplier' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Multiplier.vhd:5' bound to instance 'U0' of component 'Multiplier' [c:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/bd/design_1/ip/design_1_Multiplier_0_0/synth/design_1_Multiplier_0_0.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'Multiplier' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Multiplier.vhd:19]
+	Parameter n bound to: 64 - type: integer 
+	Parameter n bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:4' bound to instance 'FullAdd' of component 'FullAdder' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Multiplier.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'FullAdder' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:17]
+	Parameter n bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'first_adder' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:36]
+INFO: [Synth 8-638] synthesizing module 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'FullAdderSubtractor' (1#1) [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:14]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdderSubtractor.vhd:4' bound to instance 'rest_of_adders' of component 'FullAdderSubtractor' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'FullAdder' (2#1) [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/imports/Lab_3/FullAdder.vhd:17]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Register.vhd:5' bound to instance 'Regist' of component 'Reg' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Multiplier.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'Reg' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Register.vhd:18]
+	Parameter n bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Reg' (3#1) [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Register.vhd:18]
+	Parameter n bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'ShiftRegister' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/ShiftRegister.vhd:4' bound to instance 'LeftShifter' of component 'ShiftRegister' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Multiplier.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'ShiftRegister' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/ShiftRegister.vhd:19]
+	Parameter n bound to: 64 - type: integer 
+WARNING: [Synth 8-614] signal 'EN' is read in the process but is not in the sensitivity list [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/ShiftRegister.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'ShiftRegister' (4#1) [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/ShiftRegister.vhd:19]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'ShiftRegister' declared at 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/ShiftRegister.vhd:4' bound to instance 'RighShifter' of component 'ShiftRegister' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Multiplier.vhd:116]
+INFO: [Synth 8-638] synthesizing module 'ShiftRegister__parameterized1' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/ShiftRegister.vhd:19]
+	Parameter n bound to: 32 - type: integer 
+WARNING: [Synth 8-614] signal 'EN' is read in the process but is not in the sensitivity list [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/ShiftRegister.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'ShiftRegister__parameterized1' (4#1) [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/ShiftRegister.vhd:19]
+WARNING: [Synth 8-614] signal 'Sum' is read in the process but is not in the sensitivity list [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Multiplier.vhd:150]
+WARNING: [Synth 8-614] signal 'Product' is read in the process but is not in the sensitivity list [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Multiplier.vhd:150]
+INFO: [Synth 8-256] done synthesizing module 'Multiplier' (5#1) [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Multiplier.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'design_1_Multiplier_0_0' (6#1) [c:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.srcs/sources_1/bd/design_1/ip/design_1_Multiplier_0_0/synth/design_1_Multiplier_0_0.vhd:67]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 427.832 ; gain = 160.254
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 427.832 ; gain = 160.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 427.832 ; gain = 160.254
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 768.480 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 768.480 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.052 . Memory (MB): peak = 771.828 ; gain = 3.348
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 771.828 ; gain = 504.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 771.828 ; gain = 504.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 771.828 ; gain = 504.250
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'pr_state_reg' in module 'Multiplier'
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nx_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'R_reg' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Multiplier.vhd:155]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_nx_state_reg' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Multiplier.vhd:145]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_nx_state_reg' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Multiplier.vhd:145]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   start |                            00001 |                              000
+                    test |                            00010 |                              001
+                     add |                            00100 |                              011
+                   shift |                            01000 |                              010
+                     fin |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'pr_state_reg' using encoding 'one-hot' in module 'Multiplier'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_nx_state_reg' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Multiplier.vhd:145]
+WARNING: [Synth 8-327] inferring latch for variable 'done_reg' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Multiplier.vhd:161]
+WARNING: [Synth 8-327] inferring latch for variable 'count_reg' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Multiplier.vhd:160]
+WARNING: [Synth 8-327] inferring latch for variable 'RegIN_reg' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Multiplier.vhd:97]
+WARNING: [Synth 8-327] inferring latch for variable 'RegEN_reg' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Multiplier.vhd:98]
+WARNING: [Synth 8-327] inferring latch for variable 'ShiftEN_reg' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Multiplier.vhd:109]
+WARNING: [Synth 8-327] inferring latch for variable 'Load_reg' [C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Multiplier.vhd:111]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 771.828 ; gain = 504.250
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---XORs : 
+	   3 Input      1 Bit         XORs := 64    
+	   2 Input      1 Bit         XORs := 64    
++---Registers : 
+	               64 Bit    Registers := 2     
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 2     
+	   5 Input     64 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 2     
+	   5 Input     32 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   5 Input      3 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module FullAdderSubtractor 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 1     
+Module FullAdder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 64    
+Module Reg 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 1     
+Module ShiftRegister 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 2     
+Module ShiftRegister__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module Multiplier 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   5 Input     64 Bit        Muxes := 2     
+	   5 Input     32 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   5 Input      3 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 771.828 ; gain = 504.250
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 778.137 ; gain = 510.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 778.512 ; gain = 510.934
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 791.566 ; gain = 523.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 791.566 ; gain = 523.988
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 791.566 ; gain = 523.988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 791.566 ; gain = 523.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 791.566 ; gain = 523.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 791.566 ; gain = 523.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 791.566 ; gain = 523.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    12|
+|2     |LUT1   |     1|
+|3     |LUT2   |   150|
+|4     |LUT3   |    67|
+|5     |LUT4   |    33|
+|6     |LUT5   |    30|
+|7     |LUT6   |    32|
+|8     |FDCE   |   164|
+|9     |FDPE   |     1|
+|10    |LD     |   169|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------+------------------------------+------+
+|      |Instance        |Module                        |Cells |
++------+----------------+------------------------------+------+
+|1     |top             |                              |   659|
+|2     |  U0            |Multiplier                    |   659|
+|3     |    LeftShifter |ShiftRegister                 |   129|
+|4     |    Regist      |Reg                           |   223|
+|5     |    RighShifter |ShiftRegister__parameterized1 |    66|
++------+----------------+------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 791.566 ; gain = 523.988
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 791.566 ; gain = 179.992
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 791.566 ; gain = 523.988
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 181 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 802.266 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 169 instances were transformed.
+  LD => LDCE: 169 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+101 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 802.266 ; gain = 547.727
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 802.266 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.runs/design_1_Multiplier_0_0_synth_1/design_1_Multiplier_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1174] Renamed 4 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 802.266 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_3/Lab_3.runs/design_1_Multiplier_0_0_synth_1/design_1_Multiplier_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_Multiplier_0_0_utilization_synth.rpt -pb design_1_Multiplier_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 22 23:32:11 2022...

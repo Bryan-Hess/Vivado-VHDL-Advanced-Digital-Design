@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FullAdder/src/FullAdder&apos; to &apos;FullAdder.c&apos;" description="Rename resource &apos;FullAdder&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/FullAdder" name="FullAdder.c" stamp="1643219306195" updateReferences="true"/>
+</session>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog>
+        <logs message="ERROR: [IMPL 213-28] Failed to generate IP.&#xD;&#xA;command 'ap_source' returned error code&#xD;&#xA;    while executing&#xD;&#xA;&quot;source C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_5/Lab_5/solution1/export.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_5/Lab_5/solution1/export.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="Lab_5" solutionName="solution1" date="2022-04-16T21:23:39.149-0400"/>
+        <logs message="ERROR: [IMPL 213-28] Failed to generate IP.&#xD;&#xA;command 'ap_source' returned error code&#xD;&#xA;    while executing&#xD;&#xA;&quot;source C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_5/Lab_5/solution1/export.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_5/Lab_5/solution1/export.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="Lab_5" solutionName="solution1" date="2022-04-16T21:11:50.345-0400"/>
+      </packageLog>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('lbuf_0_load_3', ../../../../Desktop/Jr_Year_Spring/ECE_1195/Lab_5/vhls/convolution.cpp:126) on array 'lbuf[0]', ../../../../Desktop/Jr_Year_Spring/ECE_1195/Lab_5/vhls/convolution.cpp:85 due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'lbuf_0'." projectName="Lab_5" solutionName="solution1" date="2022-04-16T21:08:32.255-0400" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-68] The II Violation in module 'hw_conv': Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1)&#xD;&#xA;   between 'store' operation (../../../../Desktop/Jr_Year_Spring/ECE_1195/Lab_5/vhls/convolution.cpp:126) of variable 'lbuf_0_load', ../../../../Desktop/Jr_Year_Spring/ECE_1195/Lab_5/vhls/convolution.cpp:126 on array 'lbuf[0]', ../../../../Desktop/Jr_Year_Spring/ECE_1195/Lab_5/vhls/convolution.cpp:85 and 'load' operation ('kbuf[0][2]', ../../../../Desktop/Jr_Year_Spring/ECE_1195/Lab_5/vhls/convolution.cpp:114) on array 'lbuf[0]', ../../../../Desktop/Jr_Year_Spring/ECE_1195/Lab_5/vhls/convolution.cpp:85." projectName="Lab_5" solutionName="solution1" date="2022-04-16T21:08:15.258-0400" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Skipped source file 'rock512.pgm'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx." projectName="Lab_5" solutionName="solution1" date="2022-04-16T21:07:53.156-0400" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

@@ -1,0 +1,19 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'Bakuboys101' on host 'desktop-3for1bs' (Windows NT_amd64 version 6.2) on Mon Apr 16 22:07:11 -0400 2018
+INFO: [HLS 200-10] In directory 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_5'
+INFO: [HLS 200-10] Opening project 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_5/Lab_5'.
+INFO: [HLS 200-10] Opening solution 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_5/Lab_5/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg400-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 16 22:07:16 2018...

@@ -1,0 +1,717 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Apr  3 23:05:09 2022
+# Process ID: 22716
+# Current directory: C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30264 C:\Users\Bakuboys101\Desktop\Jr_Year_Spring\ECE_1195\Lab_4_Redux\Lab4_Redux.xpr
+# Log file: C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/vivado.log
+# Journal file: C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Lab4_Redux.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/I_U1.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/I_Register.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/L4_Alu.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/L4_AluCtrl.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/L4_Concatenator.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/L4_CtrlUnit.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/L4_InstrReg.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/L4_LeadingOnesCounter.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/L4_LeftShifter.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/L4_Milestone.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/L4_Multiplexier.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/L4_Multiplier.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/L4_Registers.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/L4_SignExtender.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+add_files -norecurse {C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/CPU_memory.vhd C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Resizer.vhd C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Multiplexier.vhd C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/SignExtender.vhd C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/LeftShifter.vhd C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/RegisterFile.vhd C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/cpu_tb.vhd C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Multiplier.vhd C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/ControlUnit.vhd C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/AluCtrl.vhd C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Register.vhd C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/LeadingOnesCounter.vhd C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/CPU.vhd C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Alu.vhd C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/InstructionRegister.vhd}
+WARNING: [filemgmt 56-12] File 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/cpu_tb.vhd' cannot be added to the project because it already exists in the project, skipping this file
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Lab4_Redux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Lab4_Redux.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj cpu_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/AluCtrl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALUControl'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CPU'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/CPU_memory.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CPU_memory'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/ControlUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ControlUnit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/InstructionRegister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'InstructionRegister'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/LeadingOnesCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LeadingOnesCounter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/LeftShifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LeftShifter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Multiplexier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Mux'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Multiplier'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Reg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/RegisterFile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RegFile'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Resizer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Resizer'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/SignExtender.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SignExtender'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Lab4_Redux.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 1b69cd6ce44f4247a5e7baeeab28a6b8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALUControl [alucontrol_default]
+Compiling architecture rtl of entity xil_defaultlib.RegFile [regfile_default]
+Compiling architecture behavioral of entity xil_defaultlib.SignExtender [signextender_default]
+Compiling architecture behavioral of entity xil_defaultlib.LeftShifter [leftshifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [\Reg(n=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [\Reg(n=6)\]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [\Reg(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [\Reg(n=16)\]
+Compiling architecture behavioral of entity xil_defaultlib.InstructionRegister [instructionregister_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux [mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux [\Mux(n=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplier [multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.ControlUnit [controlunit_default]
+Compiling architecture behavioral of entity xil_defaultlib.LeadingOnesCounter [leadingonescounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Resizer [resizer_default]
+Compiling architecture behavioral of entity xil_defaultlib.CPU [cpu_default]
+Compiling architecture struct of entity xil_defaultlib.CPU_memory [cpu_memory_default]
+Compiling architecture behavioral of entity xil_defaultlib.cpu_tb
+Built simulation snapshot cpu_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Lab4_Redux.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source cpu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 803.410 ; gain = 23.480
+cd C:\Users\Bakuboys101\Desktop\Jr_Year_Spring\ECE_1195\Lab_4_Redux
+couldn't change working directory to "C:UsersBakuboys101DesktopJr_Year_SpringECE_1195Lab_4_Redux": no such file or directory
+C:\Users\Bakuboys101\Desktop\Jr_Year_Spring\ECE_1195/Lab_4_Redux
+invalid command name "C:UsersBakuboys101DesktopJr_Year_SpringECE_1195/Lab_4_Redux"
+cd C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/ux
+couldn't change working directory to "C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/ux": no such file or directory
+cd C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/
+source CPU_tb
+couldn't read file "CPU_tb": no such file or directory
+source CPU_tb
+couldn't read file "CPU_tb": no such file or directory
+source CPU_tb.tcl
+# restart
+INFO: [Simtcl 6-17] Simulation restarted
+# add_wave {{/cpu_tb/U_1}} 
+# add_force clk 1 {0 5ns} -repeat_every 10ns
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {20070011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {200BFFFD}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {00EB5824}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {ACEB000F}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {00000000}
+# add_force reset 0
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 400 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x00000011} {
+# 	puts "Correct! Test 0 passed."
+# } else {
+# 	puts "InCorrect! Test 0 didn't pass."
+# }
+Correct! Test 0 passed.
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {20070011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {200BFFFD}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {00EB5822}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {aceb000f}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {00000000}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 400 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x00000014} {
+# 	puts "Correct! Test 1 passed."
+# } else {
+# 	puts "InCorrect! Test 1 didn't pass."
+# }
+Correct! Test 1 passed.
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {20070011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {200BFFFD}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {00EB5821}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {aceb000f}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {00000000}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 400 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x0000000E} {
+# 	puts "Correct! Test 2 passed."
+# } else {
+# 	puts "InCorrect! Test 2 didn't pass."
+# }
+Correct! Test 2 passed.
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {20070011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {200BFFFD}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {00075843}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {aceb000f}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {00000000}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 400 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x00000008} {
+# 	puts "Correct! Test 3 passed."
+# } else {
+# 	puts "InCorrect! Test 3 didn't pass."
+# }
+Correct! Test 3 passed.
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {20070011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {200BFFFD}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {00E75804}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {aceb000f}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {00000000}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 400 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x00220000} {
+# 	puts "Correct! Test 4 passed."
+# } else {
+# 	puts "InCorrect! Test 4 didn't pass."
+# }
+Correct! Test 4 passed.
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {20070011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {200BFFFD}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {28EB003F}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {aceb000f}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {00000000}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 400 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x00000001} {
+# 	puts "Correct! Test 5 passed."
+# } else {
+# 	puts "InCorrect! Test 5 didn't pass."
+# }
+Correct! Test 5 passed.
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {20070011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {200BFFFD}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {15670003}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {20010002}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {20010001}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {ACE1000F}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 800 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x00000001} {
+# 	puts "Correct! Test 6 passed."
+# } else {
+# 	puts "InCorrect! Test 6 didn't pass."
+# }
+Correct! Test 6 passed.
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {3C011001}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {342D0020}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {3C010123}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {34294567}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {ADA90000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {85AB0002}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {ADAB0010}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {00000000}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 800 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x01234567} {
+# 	puts "Correct! Test 7 first SW passed"
+# } else {
+# 	puts "InCorrect! Test 7 first SW didn't pass."
+# }
+Correct! Test 7 first SW passed
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[12]}] == 0x00000123} {
+# 	puts "Correct! Test 7 second SW passed"
+# } else {
+# 	puts "InCorrect! Test 7 second SW didn't pass."
+# }
+Correct! Test 7 second SW passed
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {3C011001}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {342D0020}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {2009FFD3}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {71205021}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {ADAA0000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {00000000}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 1000 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x0000001A} {
+# 	puts "Correct! Test 8 passed."
+# } else {
+# 	puts "InCorrect! Test 8 didn't pass."
+# }
+Correct! Test 8 passed.
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {3C011001}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {3403FF0F}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {AC230020}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {3405BBBB}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {8C220020}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00452024}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {AC240024}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 1000 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x0000ff0f} {
+# 	puts "Correct! Test 9 first SW passed"
+# } else {
+# 	puts "InCorrect! Test 9 first SW didn't pass."
+# }
+Correct! Test 9 first SW passed
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[9]}] == 0x0000bb0b} {
+# 	puts "Correct! Test 9 second SW passed"
+# } else {
+# 	puts "InCorrect! Test 9 second SW didn't pass."
+# }
+Correct! Test 9 second SW passed
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {200BFFFD}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {05700003}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {08000007}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {03E00008}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {AC1F0020}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 1000 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x00000008} {
+# 	puts "Correct! Test 10 passed."
+# } else {
+# 	puts "InCorrect! Test 10 didn't pass."
+# }
+Correct! Test 10 passed.
+source t_multiply
+couldn't read file "t_multiply": no such file or directory
+source t_multiply.tcl
+# restart
+INFO: [Simtcl 6-17] Simulation restarted
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {3C01FCDE}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {34080011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {00011103}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {00220019}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000810}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00001012}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {AD01000F}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {AD020013}
+# add_force clk 1 {0 5ns} -repeat_every 10ns
+# add_force reset 0
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 500 ns
+# if { [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[8]} ] == {fcac7d08} && [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[9]} ] == {40000000}} {
+#     puts "test correct"
+#     puts [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[8]}  ]
+#     puts [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[9]}  ]
+# } else {
+#     puts "test incorrect"
+#     puts [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[8]} ]
+#     puts [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[9]}  ]
+# }
+test correct
+fcac7d08
+40000000
+source t_divide.tcl
+# restart
+INFO: [Simtcl 6-17] Simulation restarted
+# add_wave {{/cpu_tb/U_1}}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {20070011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {34010023}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {34020002}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {04300007}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00220822}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {20630001}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {08000c03}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {2063ffff}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[8]} -radix hex {ace3001b}
+# add_force clk 1 {0 5ns} -repeat_every 10ns
+# add_force reset 0
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 3333 ns
+# if { [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[11]} ] == {00000011} } {
+#     puts "test correct"
+#     puts [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[11]}  ]
+# } else {
+#     puts "test incorrect"
+#     puts [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[11]} ]
+# }
+test correct
+00000011
+source Test0.tcl
+# restart
+INFO: [Simtcl 6-17] Simulation restarted
+# add_wave {{/cpu_tb/U_1}} 
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {20070011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {200BFFFD}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {00EB5824}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {ACEB000F}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {00000000}
+# add_force clk 1 {0 5ns} -repeat_every 10ns
+# add_force reset 0
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 200 ns
+# if {[get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[8]}] == {00000011}} {
+# 	puts "T0 Pass"
+# } else {
+# 	puts "T0 Fail"
+# }
+T0 Fail
+# puts [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[8]}]
+ace3001b
+source Test0.tcl
+# restart
+INFO: [Simtcl 6-17] Simulation restarted
+# add_wave {{/cpu_tb/U_1}} 
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {20070011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {200BFFFD}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {00EB5824}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {ACEB000F}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[8]} -radix hex {00000000}
+# add_force clk 1 {0 5ns} -repeat_every 10ns
+# add_force reset 0
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 200 ns
+# if {[get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[8]}] == {00000011}} {
+# 	puts "T0 Pass"
+# } else {
+# 	puts "T0 Fail"
+# }
+T0 Fail
+# puts [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[8]}]
+00000000
+source CPU_tb.tcl
+# restart
+INFO: [Simtcl 6-17] Simulation restarted
+# add_wave {{/cpu_tb/U_1}} 
+# add_force clk 1 {0 5ns} -repeat_every 10ns
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {20070011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {200BFFFD}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {00EB5824}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {ACEB000F}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {00000000}
+# add_force reset 0
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 400 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x00000011} {
+# 	puts "Correct! Test 0 passed."
+# } else {
+# 	puts "InCorrect! Test 0 didn't pass."
+# }
+InCorrect! Test 0 didn't pass.
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {20070011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {200BFFFD}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {00EB5822}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {aceb000f}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {00000000}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 400 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x00000014} {
+# 	puts "Correct! Test 1 passed."
+# } else {
+# 	puts "InCorrect! Test 1 didn't pass."
+# }
+InCorrect! Test 1 didn't pass.
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {20070011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {200BFFFD}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {00EB5821}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {aceb000f}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {00000000}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 400 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x0000000E} {
+# 	puts "Correct! Test 2 passed."
+# } else {
+# 	puts "InCorrect! Test 2 didn't pass."
+# }
+InCorrect! Test 2 didn't pass.
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {20070011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {200BFFFD}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {00075843}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {aceb000f}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {00000000}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 400 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x00000008} {
+# 	puts "Correct! Test 3 passed."
+# } else {
+# 	puts "InCorrect! Test 3 didn't pass."
+# }
+InCorrect! Test 3 didn't pass.
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {20070011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {200BFFFD}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {00E75804}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {aceb000f}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {00000000}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 400 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x00220000} {
+# 	puts "Correct! Test 4 passed."
+# } else {
+# 	puts "InCorrect! Test 4 didn't pass."
+# }
+InCorrect! Test 4 didn't pass.
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {20070011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {200BFFFD}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {28EB003F}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {aceb000f}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {00000000}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 400 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x00000001} {
+# 	puts "Correct! Test 5 passed."
+# } else {
+# 	puts "InCorrect! Test 5 didn't pass."
+# }
+InCorrect! Test 5 didn't pass.
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {20070011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {200BFFFD}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {15670003}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {20010002}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {20010001}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {ACE1000F}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 800 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x00000001} {
+# 	puts "Correct! Test 6 passed."
+# } else {
+# 	puts "InCorrect! Test 6 didn't pass."
+# }
+InCorrect! Test 6 didn't pass.
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {3C011001}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {342D0020}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {3C010123}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {34294567}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {ADA90000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {85AB0002}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {ADAB0010}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {00000000}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 800 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x01234567} {
+# 	puts "Correct! Test 7 first SW passed"
+# } else {
+# 	puts "InCorrect! Test 7 first SW didn't pass."
+# }
+InCorrect! Test 7 first SW didn't pass.
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[12]}] == 0x00000123} {
+# 	puts "Correct! Test 7 second SW passed"
+# } else {
+# 	puts "InCorrect! Test 7 second SW didn't pass."
+# }
+InCorrect! Test 7 second SW didn't pass.
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {3C011001}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {342D0020}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {2009FFD3}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {71205021}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {ADAA0000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {00000000}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 1000 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x0000001A} {
+# 	puts "Correct! Test 8 passed."
+# } else {
+# 	puts "InCorrect! Test 8 didn't pass."
+# }
+InCorrect! Test 8 didn't pass.
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {3C011001}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {3403FF0F}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {AC230020}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {3405BBBB}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {8C220020}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00452024}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {AC240024}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 1000 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x0000ff0f} {
+# 	puts "Correct! Test 9 first SW passed"
+# } else {
+# 	puts "InCorrect! Test 9 first SW didn't pass."
+# }
+InCorrect! Test 9 first SW didn't pass.
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[9]}] == 0x0000bb0b} {
+# 	puts "Correct! Test 9 second SW passed"
+# } else {
+# 	puts "InCorrect! Test 9 second SW didn't pass."
+# }
+InCorrect! Test 9 second SW didn't pass.
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {200BFFFD}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {05700003}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {08000007}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {03E00008}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {AC1F0020}
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 1000 ns
+# if {[get_value -radix unsigned {/cpu_tb/U_1/mw_U_0ram_table[8]}] == 0x00000008} {
+# 	puts "Correct! Test 10 passed."
+# } else {
+# 	puts "InCorrect! Test 10 didn't pass."
+# }
+InCorrect! Test 10 didn't pass.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr  3 23:20:54 2022...

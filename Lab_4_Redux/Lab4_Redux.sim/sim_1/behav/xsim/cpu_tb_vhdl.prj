@@ -1,0 +1,20 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Alu.vhd" \
+"../../../../AluCtrl.vhd" \
+"../../../../CPU.vhd" \
+"../../../../CPU_memory.vhd" \
+"../../../../ControlUnit.vhd" \
+"../../../../InstructionRegister.vhd" \
+"../../../../LeadingOnesCounter.vhd" \
+"../../../../LeftShifter.vhd" \
+"../../../../Multiplexier.vhd" \
+"../../../../Multiplier.vhd" \
+"../../../../Register.vhd" \
+"../../../../RegisterFile.vhd" \
+"../../../../Resizer.vhd" \
+"../../../../SignExtender.vhd" \
+"../../../../cpu_tb.vhd" \
+
+# Do not sort compile order
+nosort

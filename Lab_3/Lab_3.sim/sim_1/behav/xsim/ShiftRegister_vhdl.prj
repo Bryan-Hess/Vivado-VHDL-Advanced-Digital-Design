@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Register.vhd" \
+"../../../../ShiftRegister.vhd" \
+"../../../../ControlUnit.vhd" \
+"../../../../Multiplier.vhd" \
+
+# Do not sort compile order
+nosort

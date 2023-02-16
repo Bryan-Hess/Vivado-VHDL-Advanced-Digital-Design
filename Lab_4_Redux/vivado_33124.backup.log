@@ -1,0 +1,175 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Apr  4 00:20:17 2022
+# Process ID: 33124
+# Current directory: C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28552 C:\Users\Bakuboys101\Desktop\Jr_Year_Spring\ECE_1195\Lab_4_Redux\Lab4_Redux.xpr
+# Log file: C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/vivado.log
+# Journal file: C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Lab4_Redux.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Lab4_Redux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Lab4_Redux.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj cpu_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Lab4_Redux.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 1b69cd6ce44f4247a5e7baeeab28a6b8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Lab4_Redux.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source cpu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 767.855 ; gain = 0.000
+source TestMultiply.tcl
+# restart
+INFO: [Simtcl 6-17] Simulation restarted
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {3C01F1E8}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {34080011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {00011103}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {00220019}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000810}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00001012}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {AD01000F}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {AD020013}
+# add_force clk 1 {0 5ns} -repeat_every 10ns
+# add_force reset 0
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 500 ns
+# if { [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[8]} ] == {f112ea24} && [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[9]} ] == {00000000}} {
+#     puts "Multiplication Passed"
+# } else {
+#     puts "Multiplication Failed"
+# }
+Multiplication Passed
+# puts [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[8]}  ]
+f112ea24
+# puts [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[9]}  ]
+00000000
+source TestMultiply.tcl
+# restart
+INFO: [Simtcl 6-17] Simulation restarted
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {3C01F1E8}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {34080011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {00011203}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {00220019}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000810}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00001012}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {AD01000F}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {AD020013}
+# add_force clk 1 {0 5ns} -repeat_every 10ns
+# add_force reset 0
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 500 ns
+# if { [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[8]} ] == {f1daaea2} && [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[9]} ] == {40000000}} {
+#     puts "Multiplication Passed"
+# } else {
+#     puts "Multiplication Failed"
+# }
+Multiplication Passed
+# puts [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[8]}  ]
+f1daaea2
+# puts [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[9]}  ]
+40000000
+source Test0.tcl
+# restart
+INFO: [Simtcl 6-17] Simulation restarted
+# add_wave {{/cpu_tb/U_1}} 
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {20070011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {200BFFFD}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {00EB5824}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {ACEB000F}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {00000000}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {00000000}
+# add_force clk 1 {0 5ns} -repeat_every 10ns
+# add_force reset 0
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 200 ns
+# if {[get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[8]}] == {00000011}} {
+# 	puts "Test 0 Pass"
+# } else {
+# 	puts "Test 0 Fail"
+# }
+Test 0 Pass
+# puts [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[8]}]
+00000011
+source TestMultiply.tcl
+# restart
+INFO: [Simtcl 6-17] Simulation restarted
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[0]} -radix hex {3C01F1E8}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[1]} -radix hex {34080011}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[2]} -radix hex {00011203}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[3]} -radix hex {00220019}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[4]} -radix hex {00000810}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[5]} -radix hex {00001012}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[6]} -radix hex {AD01000F}
+# add_force {/cpu_tb/U_1/mw_U_0ram_table[7]} -radix hex {AD020013}
+# add_force clk 1 {0 5ns} -repeat_every 10ns
+# add_force reset 0
+# run 2500ps
+# add_force reset 1
+# run 5 ns
+# add_force reset 0
+# run 500 ns
+# if { [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[8]} ] == {f1daaea2} && [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[9]} ] == {40000000}} {
+#     puts "Multiplication Passed"
+# } else {
+#     puts "Multiplication Failed"
+# }
+Multiplication Passed
+# puts [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[8]}  ]
+f1daaea2
+# puts [get_value -radix hex {/cpu_tb/U_1/mw_U_0ram_table[9]}  ]
+40000000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr  4 00:38:49 2022...

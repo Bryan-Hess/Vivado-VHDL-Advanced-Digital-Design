@@ -1,0 +1,125 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<time.h>
+
+int getRand(int, int);
+
+int main(void)
+{
+	uint32_t *regmap = (uint32_t *) 0x70000000; // base address of axi_regmap as set in the Vivado address editor
+	int A, B, S, K, Cout;
+
+	printf("Corer cases: \n");
+
+	K = 0;
+	A = 1;
+	B = 1;
+	regmap[2] = K;         // write to register 2 (REG2_OUT, input K of adder)
+	regmap[0] = A;         // write to register 0 (REG0_OUT, input A of adder)
+	regmap[1] = B;         // write to register 1 (REG1_OUT, input B of adder)
+	Cout = regmap[2];      // read from register 0 (REG0_IN, output S of adder)
+	//S  = regmap[0];       // read from register 0 (REG0_IN, output S of adder)
+	//printf("%2zu + %2zu = %3zu (%s)\n", A, B, S, (S == A+B) ? "COR" : "ERR");
+	if(Cout == 0)
+        printf("Addition 1 Passed\n");
+	else
+        printf("Addition 1 Failed\n");
+
+	A = 8000000000;
+	B = 8000000000;
+    regmap[2] = K;         // write to register 2 (REG2_OUT, input K of adder)
+	regmap[0] = A;         // write to register 0 (REG0_OUT, input A of adder)
+	regmap[1] = B;         // write to register 1 (REG1_OUT, input B of adder)
+	Cout = regmap[2];      // read from register 0 (REG0_IN, output S of adder)
+	//S  = regmap[0];       // read from register 0 (REG0_IN, output S of adder)
+	//printf("%2zu + %2zu = %3zu (%s)\n", A, B, S, (S == A+B) ? "COR" : "ERR");
+	if(Cout != 0)
+        printf("Addition 2 Passed\n");
+	else
+        printf("Addition 2 Failed\n");
+
+	K = 1;
+	A = 11;
+	B = 1;
+    regmap[2] = K;         // write to register 2 (REG2_OUT, input K of adder)
+	regmap[0] = A;         // write to register 0 (REG0_OUT, input A of adder)
+	regmap[1] = B;         // write to register 1 (REG1_OUT, input B of adder)
+	Cout = regmap[2];      // read from register 0 (REG0_IN, output S of adder)
+	//S  = regmap[0];       // read from register 0 (REG0_IN, output S of adder)
+	//printf("%2zu - %2zu = %3zu (%s)\n", A, B, S, (S == A-B) ? "COR" : "ERR");
+	if(Cout != 0)
+        printf("Subtraction 1 Passed\n");
+	else
+        printf("Subtraction 1 Failed\n");
+
+	A = 8000000000;
+	B = 8000000000;
+    regmap[2] = K;         // write to register 2 (REG2_OUT, input K of adder)
+	regmap[0] = A;         // write to register 0 (REG0_OUT, input A of adder)
+	regmap[1] = B;         // write to register 1 (REG1_OUT, input B of adder)
+	Cout = regmap[2];      // read from register 0 (REG0_IN, output S of adder)
+	//S  = regmap[0];       // read from register 0 (REG0_IN, output S of adder)
+	//printf("%2zu - %2zu = %3zu (%s)\n", A, B, S, (S == A-B) ? "COR" : "ERR");
+	if(Cout != 0)
+        printf("Subtraction 2 Passed\n");
+	else
+        printf("Subtraction 2 Failed\n");
+
+	A = 2;
+	B = 5;
+    regmap[2] = K;         // write to register 2 (REG2_OUT, input K of adder)
+	regmap[0] = A;         // write to register 0 (REG0_OUT, input A of adder)
+	regmap[1] = B;         // write to register 1 (REG1_OUT, input B of adder)
+	Cout = regmap[2];      // read from register 0 (REG0_IN, output S of adder)
+	//S  = regmap[0];       // read from register 0 (REG0_IN, output S of adder)
+	//printf("%2zu - %2zu = %3zu (%s)\n", A, B, S, (S == A-B) ? "COR" : "ERR");
+	if(Cout == 0)
+        printf("Subtraction 3 Passed\n");
+    else
+        printf("Subtraction 3 Failed\n");
+
+	printf("Random cases: \n");
+
+    //For loop for random addition
+	for (int i = 0; i < 50; i++){
+		K = 0;
+		A = getRand(0, 999999);
+		B = getRand(0, 999999);
+		regmap[2] = K;        // write to register 2 (REG2_OUT, input K of adder)
+		regmap[0] = A;        // write to register 0 (REG0_OUT, input A of adder)
+		regmap[1] = B;        // write to register 1 (REG1_OUT, input B of adder)
+		S  = regmap[0];       // read from register 0 (REG0_IN, output S of adder)
+		//printf("%2zu - %2zu = %3zu (%s)\n", A, B, S, (S == A+B) ? "COR" : "ERR");
+
+		if(S != A + B){
+			printf("Random Addition Failed\n");
+			break;
+		}
+
+
+	}
+
+    //For loop for random subtraction
+	for (int i = 0; i < 50; i++) {
+			K = 1;
+			A = getRand(0, 999999);
+			B = getRand(0, 999999);
+            regmap[2] = K;         // write to register 2 (REG2_OUT, input K of adder)
+			regmap[0] = A;         // write to register 0 (REG3_OUT, input A of adder)
+			regmap[1] = B;         // write to register 1 (REG1_OUT, input B of adder)
+			S  = regmap[0]; // read from register 0 (REG0_IN, output S of adder)
+			//printf("%2zu - %2zu = %3zu (%s)\n", A, B, S, (S == A-B) ? "COR" : "ERR");
+
+			if(S != A - B){
+				printf("Random Subtraction Failed\n");
+				break;
+			}
+		}
+	return 0;
+}
+
+//Get random function
+int getRand(int low, int high){
+		int num = (rand() % (high - low + 1)) + low;
+		return num;
+}

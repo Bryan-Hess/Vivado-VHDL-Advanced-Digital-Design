@@ -1,0 +1,833 @@
+12:44:50 **** Build of project FullAdder_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project FullAdder ****
+
+Nothing to build for project FullAdder
+
+****  of configuration Debug for project FullAdder ****
+
+Nothing to build for project FullAdder
+
+****  of configuration Debug for project FullAdder ****
+
+Nothing to build for project FullAdder
+12:48:26 **** Auto Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FullAdder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FullAdder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FullAdder_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FullAdder.d" -MT"src/FullAdder.o" -o "src/FullAdder.o" "../src/FullAdder.c"
+../src/FullAdder.c: In function 'main':
+../src/FullAdder.c:68:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+../src/FullAdder.c:71:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  printf("Corer cases: \n");
+  ^~~~~~
+'Finished building: ../src/FullAdder.c'
+' '
+'Building target: FullAdder.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FullAdder_bsp/ps7_cortexa9_0/lib -o "FullAdder.elf"  ./src/FullAdder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FullAdder.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FullAdder.elf  |tee "FullAdder.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33276	   2184	  22632	  58092	   e2ec	FullAdder.elf
+'Finished building: FullAdder.elf.size'
+' '
+12:49:52 **** Clean-only build of configuration Debug for project FullAdder ****
+make clean 
+rm -rf  ./src/FullAdder.o  ./src/FullAdder.d  FullAdder.elf.size  FullAdder.elf
+' '
+
+****  of configuration Debug for project FullAdder ****
+
+Nothing to build for project FullAdder
+12:50:08 **** Auto Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FullAdder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FullAdder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FullAdder_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FullAdder.d" -MT"src/FullAdder.o" -o "src/FullAdder.o" "../src/FullAdder.c"
+'Finished building: ../src/FullAdder.c'
+' '
+'Building target: FullAdder.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FullAdder_bsp/ps7_cortexa9_0/lib -o "FullAdder.elf"  ./src/FullAdder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../FullAdder_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\Bakuboys101\Desktop\Jr_Year_Spring\Lab_1\Lab_1.sdk\FullAdder_bsp\ps7_cortexa9_0\libsrc\standalone_v6_8\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: FullAdder.elf] Error 1
+12:50:11 **** Auto Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FullAdder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FullAdder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FullAdder_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FullAdder.d" -MT"src/FullAdder.o" -o "src/FullAdder.o" "../src/FullAdder.c"
+../src/FullAdder.c: In function 'main':
+../src/FullAdder.c:68:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+../src/FullAdder.c:71:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  printf("Corer cases: \n");
+  ^~~~~~
+'Finished building: ../src/FullAdder.c'
+' '
+'Building target: FullAdder.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FullAdder_bsp/ps7_cortexa9_0/lib -o "FullAdder.elf"  ./src/FullAdder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FullAdder.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FullAdder.elf  |tee "FullAdder.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33276	   2184	  22632	  58092	   e2ec	FullAdder.elf
+'Finished building: FullAdder.elf.size'
+' '
+12:50:24 **** Auto Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FullAdder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FullAdder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FullAdder_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FullAdder.d" -MT"src/FullAdder.o" -o "src/FullAdder.o" "../src/FullAdder.c"
+../src/FullAdder.c: In function 'main':
+../src/FullAdder.c:68:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+../src/FullAdder.c:71:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  printf("Corer cases: \n");
+  ^~~~~~
+'Finished building: ../src/FullAdder.c'
+' '
+'Building target: FullAdder.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FullAdder_bsp/ps7_cortexa9_0/lib -o "FullAdder.elf"  ./src/FullAdder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FullAdder.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FullAdder.elf  |tee "FullAdder.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33276	   2184	  22632	  58092	   e2ec	FullAdder.elf
+'Finished building: FullAdder.elf.size'
+' '
+12:52:38 **** Incremental Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:53:07 **** Auto Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FullAdder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FullAdder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FullAdder_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FullAdder.d" -MT"src/FullAdder.o" -o "src/FullAdder.o" "../src/FullAdder.c"
+../src/FullAdder.c: In function 'main':
+../src/FullAdder.c:68:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+../src/FullAdder.c:71:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  printf("Corer cases: \n");
+  ^~~~~~
+'Finished building: ../src/FullAdder.c'
+' '
+'Building target: FullAdder.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FullAdder_bsp/ps7_cortexa9_0/lib -o "FullAdder.elf"  ./src/FullAdder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FullAdder.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FullAdder.elf  |tee "FullAdder.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71992	   2580	  23328	  97900	  17e6c	FullAdder.elf
+'Finished building: FullAdder.elf.size'
+' '
+12:53:15 **** Incremental Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:53:53 **** Auto Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FullAdder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FullAdder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FullAdder_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FullAdder.d" -MT"src/FullAdder.o" -o "src/FullAdder.o" "../src/FullAdder.c"
+../src/FullAdder.c: In function 'main':
+../src/FullAdder.c:68:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+../src/FullAdder.c:71:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  printf("Corer cases: \n");
+  ^~~~~~
+'Finished building: ../src/FullAdder.c'
+' '
+'Building target: FullAdder.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FullAdder_bsp/ps7_cortexa9_0/lib -o "FullAdder.elf"  ./src/FullAdder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FullAdder.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FullAdder.elf  |tee "FullAdder.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72056	   2580	  23328	  97964	  17eac	FullAdder.elf
+'Finished building: FullAdder.elf.size'
+' '
+12:54:00 **** Auto Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FullAdder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FullAdder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FullAdder_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FullAdder.d" -MT"src/FullAdder.o" -o "src/FullAdder.o" "../src/FullAdder.c"
+../src/FullAdder.c: In function 'main':
+../src/FullAdder.c:68:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+../src/FullAdder.c:71:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  printf("Corer cases: \n");
+  ^~~~~~
+'Finished building: ../src/FullAdder.c'
+' '
+'Building target: FullAdder.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FullAdder_bsp/ps7_cortexa9_0/lib -o "FullAdder.elf"  ./src/FullAdder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FullAdder.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FullAdder.elf  |tee "FullAdder.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72056	   2580	  23328	  97964	  17eac	FullAdder.elf
+'Finished building: FullAdder.elf.size'
+' '
+12:54:42 **** Auto Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FullAdder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FullAdder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FullAdder_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FullAdder.d" -MT"src/FullAdder.o" -o "src/FullAdder.o" "../src/FullAdder.c"
+../src/FullAdder.c: In function 'main':
+../src/FullAdder.c:26:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:27:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:68:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+../src/FullAdder.c:71:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  printf("Corer cases: \n");
+  ^~~~~~
+'Finished building: ../src/FullAdder.c'
+' '
+'Building target: FullAdder.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FullAdder_bsp/ps7_cortexa9_0/lib -o "FullAdder.elf"  ./src/FullAdder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FullAdder.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FullAdder.elf  |tee "FullAdder.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72056	   2580	  23328	  97964	  17eac	FullAdder.elf
+'Finished building: FullAdder.elf.size'
+' '
+12:55:09 **** Auto Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FullAdder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FullAdder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FullAdder_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FullAdder.d" -MT"src/FullAdder.o" -o "src/FullAdder.o" "../src/FullAdder.c"
+../src/FullAdder.c: In function 'main':
+../src/FullAdder.c:26:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:27:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:49:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:50:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:68:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+../src/FullAdder.c:71:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  printf("Corer cases: \n");
+  ^~~~~~
+'Finished building: ../src/FullAdder.c'
+' '
+'Building target: FullAdder.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FullAdder_bsp/ps7_cortexa9_0/lib -o "FullAdder.elf"  ./src/FullAdder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FullAdder.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FullAdder.elf  |tee "FullAdder.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72056	   2580	  23328	  97964	  17eac	FullAdder.elf
+'Finished building: FullAdder.elf.size'
+' '
+12:55:27 **** Incremental Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:56:39 **** Incremental Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:57:07 **** Auto Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FullAdder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FullAdder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FullAdder_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FullAdder.d" -MT"src/FullAdder.o" -o "src/FullAdder.o" "../src/FullAdder.c"
+../src/FullAdder.c: In function 'main':
+../src/FullAdder.c:26:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:27:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:49:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:50:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:68:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+../src/FullAdder.c:71:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  printf("Random cases: \n");
+  ^~~~~~
+'Finished building: ../src/FullAdder.c'
+' '
+'Building target: FullAdder.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FullAdder_bsp/ps7_cortexa9_0/lib -o "FullAdder.elf"  ./src/FullAdder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FullAdder.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FullAdder.elf  |tee "FullAdder.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72072	   2580	  23328	  97980	  17ebc	FullAdder.elf
+'Finished building: FullAdder.elf.size'
+' '
+12:57:17 **** Incremental Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:58:21 **** Auto Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FullAdder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FullAdder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FullAdder_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FullAdder.d" -MT"src/FullAdder.o" -o "src/FullAdder.o" "../src/FullAdder.c"
+../src/FullAdder.c: In function 'main':
+../src/FullAdder.c:27:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:28:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:52:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:53:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:73:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+../src/FullAdder.c:76:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  printf("Random cases: \n");
+  ^~~~~~
+../src/FullAdder.c:21:2: warning: 'S' is used uninitialized in this function [-Wuninitialized]
+  printf("%2zu - %2zu = %3zu (%s)\n", A, B, S, (S == A+B) ? "COR" : "ERR");
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/FullAdder.c'
+' '
+'Building target: FullAdder.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FullAdder_bsp/ps7_cortexa9_0/lib -o "FullAdder.elf"  ./src/FullAdder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FullAdder.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FullAdder.elf  |tee "FullAdder.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72392	   2580	  23328	  98300	  17ffc	FullAdder.elf
+'Finished building: FullAdder.elf.size'
+' '
+12:58:40 **** Incremental Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:59:56 **** Auto Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FullAdder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FullAdder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FullAdder_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FullAdder.d" -MT"src/FullAdder.o" -o "src/FullAdder.o" "../src/FullAdder.c"
+../src/FullAdder.c: In function 'main':
+../src/FullAdder.c:28:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:29:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:55:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:56:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:78:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+../src/FullAdder.c:81:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  printf("Random cases: \n");
+  ^~~~~~
+'Finished building: ../src/FullAdder.c'
+' '
+'Building target: FullAdder.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FullAdder_bsp/ps7_cortexa9_0/lib -o "FullAdder.elf"  ./src/FullAdder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FullAdder.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FullAdder.elf  |tee "FullAdder.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72456	   2580	  23328	  98364	  1803c	FullAdder.elf
+'Finished building: FullAdder.elf.size'
+' '
+13:00:06 **** Incremental Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:01:46 **** Auto Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FullAdder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FullAdder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FullAdder_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FullAdder.d" -MT"src/FullAdder.o" -o "src/FullAdder.o" "../src/FullAdder.c"
+../src/FullAdder.c: In function 'main':
+../src/FullAdder.c:28:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:29:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:55:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:56:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:78:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+../src/FullAdder.c:81:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  printf("Random cases: \n");
+  ^~~~~~
+'Finished building: ../src/FullAdder.c'
+' '
+'Building target: FullAdder.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FullAdder_bsp/ps7_cortexa9_0/lib -o "FullAdder.elf"  ./src/FullAdder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FullAdder.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FullAdder.elf  |tee "FullAdder.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72488	   2580	  23328	  98396	  1805c	FullAdder.elf
+'Finished building: FullAdder.elf.size'
+' '
+13:01:59 **** Auto Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FullAdder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FullAdder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FullAdder_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FullAdder.d" -MT"src/FullAdder.o" -o "src/FullAdder.o" "../src/FullAdder.c"
+../src/FullAdder.c: In function 'main':
+../src/FullAdder.c:28:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:29:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:55:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:56:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:78:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+../src/FullAdder.c:81:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  printf("Random cases: \n");
+  ^~~~~~
+'Finished building: ../src/FullAdder.c'
+' '
+'Building target: FullAdder.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FullAdder_bsp/ps7_cortexa9_0/lib -o "FullAdder.elf"  ./src/FullAdder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FullAdder.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FullAdder.elf  |tee "FullAdder.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72488	   2580	  23328	  98396	  1805c	FullAdder.elf
+'Finished building: FullAdder.elf.size'
+' '
+13:03:00 **** Auto Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FullAdder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FullAdder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FullAdder_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FullAdder.d" -MT"src/FullAdder.o" -o "src/FullAdder.o" "../src/FullAdder.c"
+../src/FullAdder.c: In function 'main':
+../src/FullAdder.c:28:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:29:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:55:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:56:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:78:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+../src/FullAdder.c:81:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  printf("Random cases: \n");
+  ^~~~~~
+'Finished building: ../src/FullAdder.c'
+' '
+'Building target: FullAdder.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FullAdder_bsp/ps7_cortexa9_0/lib -o "FullAdder.elf"  ./src/FullAdder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FullAdder.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FullAdder.elf  |tee "FullAdder.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72072	   2580	  23328	  97980	  17ebc	FullAdder.elf
+'Finished building: FullAdder.elf.size'
+' '
+13:03:18 **** Incremental Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:05:02 **** Auto Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FullAdder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FullAdder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FullAdder_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FullAdder.d" -MT"src/FullAdder.o" -o "src/FullAdder.o" "../src/FullAdder.c"
+../src/FullAdder.c: In function 'main':
+../src/FullAdder.c:28:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:29:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:55:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:56:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:78:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+../src/FullAdder.c:81:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  printf("Random cases: \n");
+  ^~~~~~
+'Finished building: ../src/FullAdder.c'
+' '
+'Building target: FullAdder.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FullAdder_bsp/ps7_cortexa9_0/lib -o "FullAdder.elf"  ./src/FullAdder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FullAdder.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FullAdder.elf  |tee "FullAdder.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71944	   2580	  23328	  97852	  17e3c	FullAdder.elf
+'Finished building: FullAdder.elf.size'
+' '
+13:05:08 **** Incremental Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:05:52 **** Auto Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FullAdder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FullAdder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FullAdder_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FullAdder.d" -MT"src/FullAdder.o" -o "src/FullAdder.o" "../src/FullAdder.c"
+../src/FullAdder.c: In function 'main':
+../src/FullAdder.c:28:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:29:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:55:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:56:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:78:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+../src/FullAdder.c:81:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  printf("Random cases: \n");
+  ^~~~~~
+'Finished building: ../src/FullAdder.c'
+' '
+'Building target: FullAdder.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FullAdder_bsp/ps7_cortexa9_0/lib -o "FullAdder.elf"  ./src/FullAdder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FullAdder.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FullAdder.elf  |tee "FullAdder.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72008	   2580	  23328	  97916	  17e7c	FullAdder.elf
+'Finished building: FullAdder.elf.size'
+' '
+13:06:05 **** Incremental Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:06:36 **** Auto Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FullAdder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FullAdder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FullAdder_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FullAdder.d" -MT"src/FullAdder.o" -o "src/FullAdder.o" "../src/FullAdder.c"
+../src/FullAdder.c: In function 'main':
+../src/FullAdder.c:28:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:29:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:55:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:56:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:78:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+../src/FullAdder.c:81:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  printf("Random cases: \n");
+  ^~~~~~
+'Finished building: ../src/FullAdder.c'
+' '
+'Building target: FullAdder.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FullAdder_bsp/ps7_cortexa9_0/lib -o "FullAdder.elf"  ./src/FullAdder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FullAdder.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FullAdder.elf  |tee "FullAdder.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33292	   2184	  22632	  58108	   e2fc	FullAdder.elf
+'Finished building: FullAdder.elf.size'
+' '
+13:06:48 **** Incremental Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:14:13 **** Incremental Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:16:49 **** Incremental Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:17:37 **** Auto Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/FullAdder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/FullAdder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FullAdder_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/FullAdder.d" -MT"src/FullAdder.o" -o "src/FullAdder.o" "../src/FullAdder.c"
+../src/FullAdder.c: In function 'main':
+../src/FullAdder.c:28:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:29:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:55:6: warning: overflow in implicit constant conversion [-Woverflow]
+  A = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:56:6: warning: overflow in implicit constant conversion [-Woverflow]
+  B = 8000000000;
+      ^~~~~~~~~~
+../src/FullAdder.c:78:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+     else
+     ^~~~
+../src/FullAdder.c:81:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+  printf("Random cases: \n");
+  ^~~~~~
+'Finished building: ../src/FullAdder.c'
+' '
+'Building target: FullAdder.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FullAdder_bsp/ps7_cortexa9_0/lib -o "FullAdder.elf"  ./src/FullAdder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: FullAdder.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size FullAdder.elf  |tee "FullAdder.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72488	   2580	  23328	  98396	  1805c	FullAdder.elf
+'Finished building: FullAdder.elf.size'
+' '
+13:17:43 **** Incremental Build of configuration Debug for project FullAdder ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.

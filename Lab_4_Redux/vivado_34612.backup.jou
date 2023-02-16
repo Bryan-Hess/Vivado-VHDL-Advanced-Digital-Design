@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Apr  3 22:54:51 2022
+# Process ID: 34612
+# Current directory: C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32316 C:\Users\Bakuboys101\Desktop\Jr_Year_Spring\ECE_1195\Lab_4_Redux\Lab4_Redux.xpr
+# Log file: C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/vivado.log
+# Journal file: C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/Lab4_Redux.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source cpu_tb.tcl
+cd C:/Users/Bakuboys101/Desktop/Jr_Year_Spring/ECE_1195/Lab_4_Redux/
+source CPU_tb.tcl
+source t_multiply.tcl
+source t_divide.tcl
+close_sim
